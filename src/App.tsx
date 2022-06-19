@@ -2,7 +2,7 @@ import { AdviceCard } from './components/AdviceCard'
 
 const App = () => {
   return (
-    <div className="
+    <main role="main" className="
     bg-darkBlue
       min-w-fit
       h-screen
@@ -12,7 +12,7 @@ const App = () => {
       font-sans
     ">
       <AdviceCard />
-    </div>
+    </main>
   )
 }
 
