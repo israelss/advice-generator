@@ -2,7 +2,7 @@ import { AdviceCard } from './components/AdviceCard'
 
 const App = () => {
   return (
-    <main role="main" className="
+    <main className="
     bg-darkBlue
       min-w-fit
       h-screen
