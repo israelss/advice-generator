@@ -12,14 +12,11 @@ export const NewAdviceButton = ({ disabled, onClick }: { disabled: boolean, onCl
         relative
         -bottom-8
         active:drop-shadow-neonGreen
+        hover:drop-shadow-neonGreen
         disabled:bg-grayishBlue
         disabled:filter-none
       '>
-      <img
-        className='w-full'
-        src={ diceIcon }
-        alt="Button to get new advice, green with a black dice inside"
-      />
+      <img src={ diceIcon } alt="Button to get new advice, green with a black dice inside" />
     </button>
   )
 }
