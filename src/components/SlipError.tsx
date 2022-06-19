@@ -12,9 +12,9 @@ export const SlipError = ({ error }: {error: SlipErrorType}) => {
       `}>
         {error.type.toUpperCase()}
       </div>
-      <span className="text-lightCyan text-quote">
+      <h1 className="text-lightCyan text-quote">
         {error.text}
-      </span>
+      </h1>
     </div>
   );
 }

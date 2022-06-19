@@ -12,9 +12,11 @@ export const Slip = ({ slip }: {slip: SlipType}) => {
       ">
         ADVICE #{slip.id}
       </div>
-      <q className="text-lightCyan text-quote">
-        {slip.advice}
-      </q>
+      <h1>
+        <q className="text-lightCyan text-quote">
+          {slip.advice}
+        </q>
+      </h1>
     </div>
   )
 }
